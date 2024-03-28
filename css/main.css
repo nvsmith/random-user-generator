@@ -1,49 +1,69 @@
 body {
-  font-size: 16px;
-  font-family: "Archivo Narrow", sans-serif;
-  text-align: center;
+    font-size: 16px;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    opacity: 0.9;
+    background-image: radial-gradient(steelblue 0.8px, transparent 0.5px), radial-gradient(steelblue 0.6px, whitesmoke 0.5px);
+    background-size: 3rem 4rem;
+    background-position: 0 0, 10px 10px;
 }
 
 .hide {
-  display: none;
+    display: none;
 }
 
 h1 {
-  padding: 0.5em;
-  font-size: 2.5em;
-  font-family: "Julius Sans One", sans-serif;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: system-ui, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+hr {
+    margin: 3rem 0;
 }
 
 img {
-  border-radius: 50%;
-  border: 3px solid steelblue;
+    border-radius: 50%;
+    border: 3px solid steelblue;
 }
 
 .random-peeps {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .random-peeps div {
-  flex-basis: 250px;
-  text-align: center;
-  padding: 0.5em;
-  border: 1px solid steelblue;
-  background-color: #c6f6f6;
-  margin: 1em;
-  -webkit-box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.377);
-  box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.377);
+    flex-basis: 250px;
+    text-align: center;
+    padding: 0.5em;
+    border: 1px solid steelblue;
+    background-color: #e6f7f7;
+    margin: 1em;
+    -webkit-box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.377);
+    box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.377);
 }
 .num-users label {
-  font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 #users {
-  margin: 0 0.75em;
-  padding: 0.5em;
-  color: steelblue;
-  font-weight: bold;
-  font-size: 1em;
-  font-family: "Archivo Narrow", sans-serif;
+    margin: 0 0.75em;
+    padding: 0.5em;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 1em;
 }
